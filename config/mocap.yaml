@@ -3,6 +3,10 @@
 # Identifier corresponds to Trackable ID set in Tracking Tools
 #
 rigid_bodies:
+    '0':
+        pose: robot0/pose
+        pose2d: robot0/ground_pose
+        frame_id: robot0/base_link
     '1':
         pose: robot1/pose
         pose2d: robot1/ground_pose
@@ -11,7 +15,3 @@ rigid_bodies:
         pose: robot2/pose
         pose2d: robot2/ground_pose
         frame_id: robot2/base_link
-    '3':
-        pose: robot3/pose
-        pose2d: robot3/ground_pose
-        frame_id: robot3/base_link
